@@ -11,16 +11,25 @@ function ActualNavigator() {
   return (
     <NavigationContainer>
       <Tab.Navigator
-        initialRouteName={'Account'}
+        initialRouteName={'Home'}
         screenOptions={({ route }) => ({
           tabBarIcon: ({ color, size }) => {
             let iconName;
             switch (route.name) {
-              case 'Account':
-                iconName = `flash`;
-                break;
               case 'Home':
-                iconName = `home`;
+                iconName = 'home';
+                break;
+              case 'Activity':
+                iconName = `heart-circle-outline`;
+                break
+                case 'Settings':
+                iconName = `heart-circle-outline`;
+                break
+                case 'Stats':
+                iconName = `heart-circle-outline`;
+                break
+              case 'Account':
+                iconName = `person-circle-outline`;
             }
             return <Ionicons name={iconName} size={size} color={color} />;
           },

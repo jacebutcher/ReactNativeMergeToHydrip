@@ -20,7 +20,10 @@ function MainTabNavigator() {
                 iconName = `home`;
                 break;
               case 'Signup':
-                iconName = `flash`;
+                iconName = 'person-circle-outline';
+                break;
+              case 'Settings':
+                iconName = `heart-circle-outline`;         
             }
             return <Ionicons name={iconName} size={size} color={color} />;
           },
@@ -33,6 +36,7 @@ function MainTabNavigator() {
         }}>
         <Tab.Screen name={'Login'} component={LoginScreen} />
         <Tab.Screen name={'Signup'} component={SignupScreen} />
+        <Tab.Screen name={'Settings'} component={SignupScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );
