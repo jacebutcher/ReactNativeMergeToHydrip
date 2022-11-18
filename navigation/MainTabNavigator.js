@@ -30,9 +30,9 @@ function MainTabNavigator() {
         })}
         tabBarOptions={{
           labelStyle: { paddingBottom: 10, fontSize: 10 },
-          activeTintColor: 'blue',
+          activeTintColor: 'white',
           inactiveTintColor: 'black',
-          style: { padding: 10, height: 70}
+          style: { padding: 10, height: 90}
         }}>
         <Tab.Screen name={'Login'} component={LoginScreen} />
         <Tab.Screen name={'Signup'} component={SignupScreen} />
