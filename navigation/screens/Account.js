@@ -17,6 +17,9 @@ export default class Account extends React.Component {
       return (
         <View style={styles.container}>
           <Text>Hydrip Wellness 2023©</Text>
+          <Text>Text 2</Text>
+          <Text>Example 3</Text>
+          <Text>Password</Text>
         </View>
       );
     }
@@ -34,5 +37,11 @@ export default class Account extends React.Component {
       fontSize:50,
       color:"#72d9e9",
       marginBottom:80
-    }
+    },
+    style2:{
+        fontWeight:"bold",
+        fontSize:50,
+        color:"#72d9e9",
+        marginBottom:80
+      }
   });
