@@ -11,6 +11,9 @@ export const handleCreateAccPress = () => {
 
 export default class Account extends React.Component {
     state={
+      isActive: null,
+      name: '',
+      settingsPressed: false,
     }
     
     render(){
