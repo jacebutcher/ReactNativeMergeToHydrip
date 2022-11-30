@@ -11,6 +11,8 @@ export const handleCreateAccPress = () => {
 
 export default class AccountTabButton extends React.Component {
     state={
+        newCall: false,
+        updateState: true
     }
     
     render(){
@@ -36,6 +38,18 @@ export default class AccountTabButton extends React.Component {
       marginBottom:80
     },
     style2:{
+        fontWeight:"bold",
+        fontSize:50,
+        color:"#72d9e9",
+        marginBottom:80
+      },
+      style3:{
+        fontWeight:"bold",
+        fontSize:50,
+        color:"#72d9e9",
+        marginBottom:80
+      },
+      style4:{
         fontWeight:"bold",
         fontSize:50,
         color:"#72d9e9",
