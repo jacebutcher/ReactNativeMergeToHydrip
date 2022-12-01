@@ -5,6 +5,11 @@ import { StyleSheet, Text, View, TextInput, TouchableOpacity, Image} from 'react
 //HANDLERS
 ///////////////////////////////////////////////////////////////////////////
 
+//BACKEND TO-DO:
+//Add Save Button
+//Add functionality to edit profile
+//Add picture capabilities
+
 export const handleCreateAccPress = () => {
     //TODO: Implement logic to navigate to signup page.
 }
